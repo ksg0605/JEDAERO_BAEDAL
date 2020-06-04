@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BM</string>
+    <string name="title_activity_load">LoadActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_korean">Korean</string>
+    <string name="title_activity_chinese">Chinese</string>
+    <string name="title_activity_chicken">Chicken</string>
+    <string name="title_activity_japanese">Japanese</string>
+    <string name="title_activity_pizza">Pizza</string>
+    <string name="title_activity_snack_bar">SnackBar</string>
+    <string name="title_activity_popular1">Popular1</string>
+    <string name="title_activity_popular2">Popular2</string>
+</resources>

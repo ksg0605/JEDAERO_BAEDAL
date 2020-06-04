@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorwhite"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="266"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/btn_Korean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="230sp"
+            android:background="@drawable/back7"
+            android:drawableTop="@drawable/kor2"
+            android:text="한식" />
+
+        <Button
+            android:id="@+id/btn_Pizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="40sp"
+            android:background="@drawable/back7"
+            android:drawableTop="@drawable/piz2"
+            android:text="피자" />
+
+
+        <Button
+            android:id="@+id/btn_Popular1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:background="@drawable/back2"
+            android:drawableTop="@drawable/kor2"
+            android:text="인기식당1" />
+        <Button
+            android:id="@+id/btn_Popular2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:background="@drawable/back2"
+            android:drawableTop="@drawable/kor2"
+            android:text="인기식당2" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="266"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_logo2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="266"
+            android:src="@drawable/logo2" />
+
+        <Button
+            android:id="@+id/btn_Chicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/back2"
+            android:drawableTop="@drawable/chn2"
+            android:text="치킨" />
+
+        <Button
+            android:id="@+id/btn_Chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/back2"
+            android:drawableTop="@drawable/chi2"
+            android:text="중국집" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="266"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/search"
+            />
+
+        <Button
+            android:id="@+id/btn_Japanese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/back2"
+            android:drawableTop="@drawable/jap2"
+            android:text="일식" />
+
+        <Button
+            android:id="@+id/btn_SnackBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/back2"
+            android:drawableTop="@drawable/chn3"
+            android:text="분식" />
+
+    </LinearLayout>
+
+</LinearLayout>
